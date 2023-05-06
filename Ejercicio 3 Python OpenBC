@@ -1,0 +1,5 @@
+peso=int(input('Hola, bienvenido. Para iniciar, por favor, introduce tu peso en Kg: '))
+estatura=float(input('Y ahora, introduce tu estatura en metros: '))
+IMC = peso / ((estatura)**2)
+
+print('Tu índice de masa corporal es ', round(IMC,2))
