@@ -1,0 +1,10 @@
+def añobi(a):
+    if a % 400 == 0:
+        return 'Año bisiesto'
+    if a % 100 == 0:
+        return 'Año no bisiesto'
+    if a % 4 == 0:
+        return 'Año bisiesto'
+    return 'Año no bisiesto'
+    
+print(añobi(int(input('que año desea evaluar?: '))))
